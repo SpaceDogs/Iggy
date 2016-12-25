@@ -1,0 +1,49 @@
+
+html {
+    font-family: sans-serif;
+}
+p {
+    padding: 0 1rem;
+}
+input {
+    width: 50%;
+    border: 1px solid #cfcfcf;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+button {
+    background-color: #2eb179;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;;
+}
+.char-icon {
+    position: fixed;
+    bottom: 0;
+}
+.char-icon img {
+    width: 15%;
+    float: left;
+    margin: 1em;
+}
+.text-field {
+    margin: 4em 0 0 2em;
+}
+.chat-bubble {
+    position: relative;
+    bottom: 0;
+    width: 10rem;
+    box-shadow:  0 0 10px 5px #d3d3d3;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.user {
+    background-color: #09bff4;
+    color: #ffffff;
+}
+.bot-name,
+.user-name {
+    font-weight: 900;
+}
