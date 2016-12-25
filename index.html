@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/app.js"></script>
   <link rel="stylesheet" href="style.css"/>
   <title>Iggy</title>
 </head>
 <body>
-
-  <div class="char-icon">
+  <div class="chat-window">
       <div id="bot-bubble" class="chat-bubble">
         <p><span id="bot-name" class="bot-name">Iggy:&nbsp</span>Hello</p>
       </div>
-      <div id="user-bubble" class="chat-bubble user">
-        <p><span id="user-name" class="user-name">User:&nbsp</span>'Sup!</p>
-      </div>
       <img src="img/ShibaInu.png">
-      <input class="text-field"></input>
-      <button>Send</button>
+      <input id="user-field" class="text-field"></input>
+      <button id="send-button">Send</button>
   </div>
-
 </body>
 </html>

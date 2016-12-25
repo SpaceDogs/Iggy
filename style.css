@@ -18,11 +18,11 @@ button {
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;;
 }
-.char-icon {
+.chat-window {
     position: fixed;
     bottom: 0;
 }
-.char-icon img {
+.chat-window img {
     width: 15%;
     float: left;
     margin: 1em;
